@@ -1,0 +1,39 @@
+{
+  "name": "@dot-subscribe/vue3-async-pipe",
+  "version": "1.0.0",
+  "description": "Angular's async pipe, implemented in Vue 3, as close as possible",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf ./dist/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaHull/vue3-async-pipe.git"
+  },
+  "keywords": [
+    "angular",
+    "vue",
+    "vue3",
+    "observable",
+    "async",
+    "pipe",
+    "rxjs"
+  ],
+  "author": "Joshua Hull",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JoshuaHull/vue3-async-pipe/issues"
+  },
+  "homepage": "https://github.com/JoshuaHull/vue3-async-pipe#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "rimraf": "^3.0.2",
+    "rxjs": "^6.6.7",
+    "typescript": "^4.1.3",
+    "vue": "^3.0.5"
+  },
+  "peerDependencies": {
+    "rxjs": "6",
+    "vue": "3"
+  }
+}
